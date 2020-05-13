@@ -15,7 +15,7 @@ phases:
     - npm run-script lint
     - npm run test
     - mkdir -p stg
-    - serverless package --package stg --stage stg -v -r eu-central-1
+    - serverless package --package ./stg --stage stg -v -r eu-central-1
 
 artifacts:
   files:
